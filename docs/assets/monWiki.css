@@ -55,7 +55,7 @@
 	margin-right: 16px;
 }
 
-/** CONTAINER **/
+/** Main **/
 .main__header{
 	padding: 0px 40px;
 }
@@ -67,4 +67,39 @@
 	display: block;
 	padding-top: 20px;
 	color: #B4B4B4;
+}
+.main__carte{
+	display: flex;
+	background-color: white;
+	padding: 20px 40px;
+	border-radius: 10px;
+}
+.main__logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	flex: none;
+	margin-right: 20px;
+
+}
+.quick-start{
+	
+	background-color: #E5EFF5;	
+}
+
+.main__icone{
+	width: 50px;
+	flex: none;
+}
+.carte--titre{
+	font-size: 32px;
+
+}
+
+.carte--soustitre{
+	padding-top: 8px;
+	color: #B4B4B4 ; 
 }
